@@ -6,11 +6,8 @@ import csv
 import sys
 
 
-
-
-
 # read model
-w = np.load('modelhw1best.npy')
+w = np.load('modelhw1_best.npy')
 
 
 test_x = []
