@@ -16,7 +16,7 @@ import pickle
 models = word2vec.Word2Vec.load('modwtov_100.model')
 
 def loadTestData(test_filename):
-    file = open(test_filename, 'r', encoding='utf8')
+    file = open(test_filename, 'r')
     data = []
     row_num = 0
     for row in file.readlines():
