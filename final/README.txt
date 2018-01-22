@@ -7,4 +7,11 @@ jieba 此版本來自https://github.com/APCLab/jieba-tw.git 安裝方式為 pip3
 
 執行指令
 cd進src directory後
-執行 python3 final.py <testing_data.csv的路徑> <輸出的prediction.csv的路徑>
+執行 python3 final.py <testing_data.csv的路徑> <輸出的答案的csv檔的路徑>
+
+<testing_data.csv的路徑> 和 <輸出的答案的csv檔的路徑> 皆由助教給定
+其中 輸出的答案的csv檔 的檔名助教可自行給定
+執行範例：  python3 final.py ./testing_data.csv ./prediction.csv
+
+
+
